@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap);
+
+.pixel {
+font-family: Pixelify Sans, sans-serif;
+color: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+display: flex;
+flex-wrap: wrap;
+margin: 0;
+}
+
+
+header {
+flex: 0 1 100%;
+height: 104px;
+
+display: flex;
+
+background: #7de415;
+}
+
+header #logo {
+flex: 0 0 150px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: #7de415;
+}
+
+header #logo img {
+width: 150px;
+height: auto;
+}
+
+nav {
+flex: 1;
+height: 100px;
+
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+margin: 0;
+padding-right: 20px;
+}
+
+nav a {
+margin: 0.5%;
+font-size: 20pt;
+}
+
+nav a:hover {
+color: #aaaaaa;
+}
+
+main {
+flex: 0 1 100%;
+
+min-height: calc(100vh - 204px);
+
+display: flex;
+flex-direction: column;
+
+justify-content: flex-start;
+align-items: center;
+
+padding-top: 20px;
+padding-bottom: 50px;
+
+background: #6c1a6e;
+}
+
+main h1 {
+margin-top: 10px;
+
+color: #e9ebe7;
+}
+
+main h2,
+main h3 {
+color: #e9ebe7;
+}
+
+main p {
+margin-top: 10px;
+
+color: #e9ebe7;
+text-align: center;
+}
+
+main ul {
+margin-top: 10px;
+
+color: #e9ebe7;
+}
+
+.retangulos {
+width: 100%;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+
+gap: 30px;
+
+margin-top: 40px;
+}
+
+
+.evento {
+width: 400px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.evento h2 {
+margin-top: 0;
+margin-bottom: 15px;
+
+color: #e9ebe7;
+}
+
+
+.retangulo {
+width: 400px;
+height: 400px;
+
+border-radius: 6%;
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.os-amantes {
+background-image: url(../IMG/os_amantes.png);
+}
+
+.evento-2 {
+background-image: url(../IMG/evento_2.png);
+}
+
+.evento-3 {
+background-image: url(../IMG/evento_3.png);
+}
+
+.barueri-1 {
+background-image: url(../IMG/evento.png);
+}
+
+.barueri-2 {
+background-image: url(../IMG/evento_4.png);
+}
+
+.barueri-3 {
+background-image: url(../IMG/evento_5.png);
+}
+
+.barueri-4 {
+background-image: url(../IMG/evento_6.png);
+}
+
+.barueri-5 {
+background-image: url(../IMG/evento_7.png);
+}
+
+.barueri-6 {
+background-image: url(../IMG/evento_8.png);
+}
+
+
+.osasco-1 {
+background-image: url(../IMG/evento_9.png);
+}
+
+.osasco-2 {
+background-image: url(../IMG/evento_10.png);
+}
+
+.osasco-3 {
+background-image: url(../IMG/evento_11.png);
+}
+
+.osasco-4 {
+background-image: url(../IMG/evento_12.png);
+}
+
+.jandira-1 {
+background-image: url(../IMG/evento_13.png);
+}
+
+.itapevi-1 {
+background-image: url(../IMG/evento_14.png);
+}
+
+.carapicuiba-1 {
+background-image: url(../IMG/evento_15.png);
+}
+
+.evento a {
+margin-top: 20px;
+
+color: #ffffff;
+font-size: 18px;
+
+text-decoration: none;
+}
+
+.evento a:hover {
+color: #aaaaaa;
+}
+
+.titulo-regioes {
+margin-top: 60px;
+}
+
+.botoes-regioes {
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+flex-wrap: wrap;
+
+gap: 30px;
+
+margin-top: 30px;
+}
+
+.botao-regiao {
+width: 200px;
+padding: 12px 10px;
+
+background-color: #7de415;
+color: #f8f7f8;
+
+text-align: center;
+text-decoration: none;
+}
+
+.botao-regiao:hover {
+background-color: #fafafa;
+color: #050005;
+}
+
+footer {
+flex: 0 1 100%;
+
+height: 100px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+margin: 0;
+
+background-color: #92149d;
+
+color: #e9ebe7;
+}
+
+main.carapicuiba .retangulos {
+flex-wrap: wrap;
+justify-content: center;
+}
+
+main.carapicuiba .evento {
+width: 400px;
+}
+
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+
