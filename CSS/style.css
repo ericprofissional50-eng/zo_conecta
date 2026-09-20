@@ -215,6 +215,9 @@ footer {
     background-color: #92149d;
 
     color: #e9ebe7;
+
+    
+    flex-direction: column;
 }
 
 a {
