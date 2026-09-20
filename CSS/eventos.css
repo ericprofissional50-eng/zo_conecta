@@ -283,6 +283,13 @@ main.carapicuiba .evento {
 width: 400px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 a {
 text-decoration: none;
